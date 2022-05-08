@@ -1,8 +1,8 @@
 ## Projeto Sanchez
 
-> Projeto simples usando <mark>HTML5 e CSS3 .</mark>
+> Projeto simples usando HTML5 e CSS3 .
 
-<b> Nesse projeto falo um pouco sobre o personagem <i style="color:deeppink">Rick Sanchez</i> da série animada <mark style="background-color: lime">RickandMorty.<mark></b>
+<b> Nesse projeto falo um pouco sobre o personagem <i>Rick Sanchez</i> da série animada RickandMorty.</b>
 
 ![](imagens/imagen-projeto.png)
 
