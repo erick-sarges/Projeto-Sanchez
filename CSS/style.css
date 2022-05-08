@@ -1,0 +1,72 @@
+body {
+
+    background-image: url(../imagen_fundo/rique.jpg);
+    background-attachment: fixed;
+    
+}
+
+.cabeca {
+
+    background-color: lime;
+    font-size: 20px;
+    width: fit-content;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+
+.texto {
+    font-weight: 900;
+    color: blue;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: deeppink;
+    font-weight: 900;
+    text-shadow: 1px 1px black;
+    
+}
+
+.rick2 {
+    margin: auto;
+    margin-top: 30px;
+    background-color: deeppink;
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    
+    
+    
+
+}
+
+.rick1 {
+    background-color: limegreen;
+    width: 400px;
+    margin: auto;
+    padding: 2px;
+    padding-bottom: 5px;
+    font-family: 'Yatra One', cursive;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 15px;
+    
+    
+}
+.mae{
+
+    background-image: url(../imagen_fundo/rickk.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+}
