@@ -5,9 +5,9 @@ body {
     
 }
 
-.cabeca {
+.cabeca{
 
-    background-color: lime;
+    background-color: limegreen;
     font-size: 20px;
     width: fit-content;
     height: 100px;
@@ -16,6 +16,11 @@ body {
     box-sizing: border-box;
     padding: 5px;
     margin-top: 20px;
+}
+.cabeca:hover{
+    background-color: lime;
+
+
 }
 
 
@@ -33,6 +38,10 @@ a {
     text-shadow: 1px 1px black;
     
 }
+a:hover{
+
+    color: #FF00FF;
+}
 
 .rick2 {
     margin: auto;
@@ -44,6 +53,12 @@ a {
     
     
     
+
+}
+.rick2:hover{
+    background-color: 	#FF00FF;
+
+
 
 }
 
@@ -60,6 +75,10 @@ a {
     
     
 }
+.rick1:hover{
+    background-color: lime;
+}
+
 .mae{
 
     background-image: url(../imagen_fundo/rickk.png);
@@ -75,3 +94,4 @@ a {
     margin-top: 1px;
     
 }
+
