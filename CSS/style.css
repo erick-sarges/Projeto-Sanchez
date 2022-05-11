@@ -27,6 +27,7 @@ body {
     background-color: lime;
     width: fit-content;
     border-radius: 10px;
+    margin-left: 3px;
     
 }
 
@@ -83,7 +84,7 @@ a:hover{
     margin: auto;
     margin-top: 10px;
     background-color: deeppink;
-    width: 200px;
+    width: 150px;
     padding: 5px;
     border-radius: 10px;
     float: left;
