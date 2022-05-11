@@ -21,6 +21,7 @@ body {
     position: sticky;
     top: 0px;
     
+    
 }
 .social{
 
@@ -152,6 +153,10 @@ a:hover{
 }
 #summer{
     list-style-image: url("../assets/icons8-summer-smith-30.png");
+}
+li{
+    font-family:  'Yatra One', cursive, Arial, sans-serif ;
+    font-size: 14px;
 }
     
 
