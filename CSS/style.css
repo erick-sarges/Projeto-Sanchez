@@ -5,11 +5,12 @@ body {
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
-    
-    
-    
+
+
+
 }
-.cabeçalho{
+
+.cabeçalho {
 
     background-image: url(../assets/sanchezz.jpg);
     width: 100%;
@@ -20,93 +21,104 @@ body {
     border-radius: 5px;
     position: sticky;
     top: 0px;
-    
-    
+
+
 }
+
 .social{
 
-    background-color: lime;
+    background-color: #00BFFF;
     width: fit-content;
     border-radius: 10px;
     margin-left: 3px;
-    
+
 }
 
+.social:hover {
+    background-color: #40E0Dd;
 
+}
 .cabeca{
 
-    background-color: limegreen;
+    background-color: #00BFFF;
     font-size: 18px;
     width: fit-content;
-    height: 110px;
+    height: 90px;
     margin: auto;
     border-radius: 10px;
     box-sizing: border-box;
     padding: 5px;
     margin-top: 20px;
-    
-    
-    
-}
 
-.cabeca:hover{
-    background-color: lime;
+
 
 
 }
+
+.cabeca:hover {
+    background-color: #40E0Dd;
+
+
+}
+
 .cabeca:active{
 
-    background-color:#FF00FF;
-    
+    background-color: lime;
+
 }
 
 .texto {
     font-weight: 900;
-    color: blue;
+    color: black;
 
 }
 
 
-a{
+.link{
 
     text-decoration: none;
-    color: deeppink;
+    color: limegreen;
     font-weight: 900;
-    text-shadow: 1px 1px black;
-    
-}
-a:hover{
+    text-shadow: 1px 2px black;
 
-    color: #FF00FF;
-    text-decoration: underline;
+}
+.link:hover{
+
+    background-color: lime;
+    text-decoration: none;
+    border-radius: 11px;
+    padding: 1px;
+    color: black;
+    text-shadow: none;
 }
 
-.rick2 {
-    margin: auto;
+.rick2{
+
     margin-top: 10px;
-    background-color: deeppink;
+    background-color: #00BFFF;
     width: 150px;
     padding: 5px;
     border-radius: 10px;
     float: left;
     margin-right: 6px;
-    
-    
-    
+    border: 1px black solid;
 }
-.rick2:hover{
-    background-color: 	#FF00FF;
 
 
-
-}
 .rick2:active{
 
-    background-color: lime;
+    background-color: #30be30;
+    border: 1px black solid;
+
+
+
 }
 
+
+
+
 .rick1 {
-    background-color: limegreen;
+    background-color: #49a4ff;
     width: 600px;
     margin: auto;
     padding-bottom: 5px;
@@ -114,19 +126,32 @@ a:hover{
     padding: 5px;
     padding-top: 5px;
     border-radius: 15px;
-    
-    
+
+
 }
 
+.rick1:hover {
 
-
-.rick1:hover{
-    background-color: lime;
+    background-color: #33c7c7;
 }
 
-.rick1:active{
+.rick1:active {
 
-    background-color: #FF00FF;
+    background-color: lime;}
+
+#familia{
+    height: 20px;
+    background-color: #00BFFF;
+    width: 200px;
+    margin: auto;
+    border-radius: 11px;
+    border: solid 1px black;
+}
+
+#familia:active{
+
+    background-color: #30be30;
+    border: 1px black solid;
 }
 
 .mae{
@@ -139,38 +164,43 @@ a:hover{
     margin: auto;
     border-radius: 20px;
     margin-top: 10px;
-    
-   
+
+
 }
-#beth{
+
+#beth {
     list-style-image: url("../assets/icons8-beth-smith-30.png");
 }
-#morty{
+
+#morty {
     list-style-image: url("../assets/icons8-morty-smith-30.png");
 }
-#jerry{
+
+#jerry {
     list-style-image: url("../assets/icons8-jerry-smith-30.png");
 }
-#summer{
+
+#summer {
     list-style-image: url("../assets/icons8-summer-smith-30.png");
 }
-li{
-    font-family:  'Yatra One', cursive, Arial, sans-serif ;
+
+li {
+    font-family: 'Yatra One', cursive, Arial, sans-serif;
     font-size: 14px;
 }
-    
 
 
 
 
-.biografia{ 
-    background-color: deeppink;
+
+#biografia {
+    background-color: #00BFFf;
     width: 450px;
     height: 200px;
     overflow-y: auto;
     font-size: 16px;
     text-indent: 15px;
-    font-family: 'Yatra One', cursive, Arial, sans-serif ;
+    font-family: 'Yatra One', cursive, Arial, sans-serif;
     border-style: solid;
     display: inline-block;
     border-radius: 5px;
@@ -180,14 +210,16 @@ li{
     right: 2px;
     bottom: 5px;
     box-sizing: border-box;
-    
-    
-    
+
+
+
 }
-.biografia:hover{
-    background-color: #FF00FF;
+
+#biografia:hover{
+    background-color: #40E0Dd;
 }
-.prick{
+
+.prick {
     font-family: 'Yatra One', cursive;
     font-size: 14px;
     width: 600px;
@@ -197,23 +229,28 @@ li{
     box-sizing: border-box;
 }
 
-.prick2{
+.prick2 {
     height: 200px;
     width: 100px;
     border: 1px solid black;
     display: inline-block;
     padding: 5px;
     border-radius: 5px;
-    background-color: deeppink;
+    background-color: #00BFFf;
     font-size: 11px;
     padding-bottom: 0px;
     padding-top: 2px;
     
-    
-    
-}
-.prick2:hover{
-    background-color: #FF00FF;
+
+
 
 }
+
+
+
+.prick2:hover{
+        background-color:#40E0Dd;
+
+}
+
 
