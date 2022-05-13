@@ -5,6 +5,7 @@ body {
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
+    
 
 
 
@@ -21,6 +22,8 @@ body {
     border-radius: 5px;
     position: sticky;
     top: 0px;
+   
+
 
 
 }
@@ -31,6 +34,9 @@ body {
     width: fit-content;
     border-radius: 10px;
     margin-left: 3px;
+    height: 35px;
+    
+    
 
 }
 
@@ -49,6 +55,8 @@ body {
     box-sizing: border-box;
     padding: 5px;
     margin-top: 20px;
+    overflow-y: hidden;
+    
 
 
 
@@ -126,6 +134,7 @@ body {
     padding: 5px;
     padding-top: 5px;
     border-radius: 15px;
+    
 
 
 }
@@ -139,7 +148,7 @@ body {
 
     background-color: lime;}
 
-#familia{
+#informaçãobio{
     height: 20px;
     background-color: #00BFFF;
     width: 200px;
@@ -148,7 +157,7 @@ body {
     border: solid 1px black;
 }
 
-#familia:active{
+#informaçãobio:active{
 
     background-color: #30be30;
     border: 1px black solid;
@@ -164,6 +173,9 @@ body {
     margin: auto;
     border-radius: 20px;
     margin-top: 10px;
+    
+    
+    
 
 
 }
@@ -196,20 +208,18 @@ li {
 #biografia {
     background-color: #00BFFf;
     width: 450px;
-    height: 200px;
+    height: 208px;
     overflow-y: auto;
-    font-size: 16px;
+    font-size: 15px;
     text-indent: 15px;
     font-family: 'Yatra One', cursive, Arial, sans-serif;
-    border-style: solid;
-    display: inline-block;
+    border: 2px solid;
     border-radius: 5px;
     padding: 5px;
-    position: relative;
-    top: 5px;
-    right: 2px;
-    bottom: 5px;
+    transform: translate(5px);
     box-sizing: border-box;
+    
+    
 
 
 
@@ -221,29 +231,31 @@ li {
 
 .prick {
     font-family: 'Yatra One', cursive;
-    font-size: 14px;
     width: 600px;
     padding: 5px;
     border-style: solid;
     border-radius: 10px;
     box-sizing: border-box;
+    transform: translateX(-1px);
+    
+    
 }
 
 .prick2 {
     height: 200px;
     width: 100px;
-    border: 1px solid black;
-    display: inline-block;
+    border: 2px solid black;
+    float: left;
     padding: 5px;
     border-radius: 5px;
     background-color: #00BFFf;
     font-size: 11px;
     padding-bottom: 0px;
-    padding-top: 2px;
     
-
-
-
+    
+  
+    
+    
 }
 
 
@@ -252,5 +264,6 @@ li {
         background-color:#40E0Dd;
 
 }
+
 
 
