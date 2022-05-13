@@ -48,7 +48,7 @@ body {
 
     background-color: #00BFFF;
     font-size: 18px;
-    width: fit-content;
+    font-weight: 900;
     height: 90px;
     margin: auto;
     border-radius: 10px;
@@ -56,6 +56,7 @@ body {
     padding: 5px;
     margin-top: 20px;
     overflow-y: hidden;
+    width: fit-content;
     
 
 
@@ -77,7 +78,7 @@ body {
 
 .texto {
     font-weight: 900;
-    color: black;
+    color: blue;
 
 }
 
@@ -127,7 +128,7 @@ body {
 
 .rick1 {
     background-color: #49a4ff;
-    width: 600px;
+    width: 52.3%;
     margin: auto;
     padding-bottom: 5px;
     font-family: 'Yatra One', cursive;
@@ -151,10 +152,12 @@ body {
 #informaçãobio{
     height: 20px;
     background-color: #00BFFF;
-    width: 200px;
+    width: 30%;
     margin: auto;
     border-radius: 11px;
     border: solid 1px black;
+    padding: 1px;
+
 }
 
 #informaçãobio:active{
@@ -169,7 +172,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 20px;
-    width: 1000px;
+    width: 60%;
     margin: auto;
     border-radius: 20px;
     margin-top: 10px;
@@ -207,7 +210,7 @@ li {
 
 #biografia {
     background-color: #00BFFf;
-    width: 450px;
+    width: 80%;
     height: 208px;
     overflow-y: auto;
     font-size: 15px;
@@ -231,7 +234,7 @@ li {
 
 .prick {
     font-family: 'Yatra One', cursive;
-    width: 600px;
+    width: 100%;
     padding: 5px;
     border-style: solid;
     border-radius: 10px;
