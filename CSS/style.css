@@ -271,8 +271,11 @@ li {
     .cabeca{
     background-color: #49a4ff;
     overflow: auto;
-    width: 50%;
+    width: fit-content;
     height: fit-content;
+    margin-left: 50px;
+    margin-right: 50px;
+
     
     }
 
@@ -334,15 +337,23 @@ li {
     }
 
     #informaçãobio{
-        height: 20px;
         background-color: #00BFFF;
-        width: 70%;
+        width: 50%;
+        height: fit-content;
         margin: auto;
         border-radius: 11px;
         border: solid 1px black;
         padding: 1px;
-        transform: translateY(200px);
+        transform: translateY(215px);
         font-size: 14px;
+        
+        position: relative;
+        top: 10px;
+        
+
+        
+        
+        
     
     }
 
@@ -350,7 +361,7 @@ li {
         height: fit-content;
         width: 95%;
         border: 2px solid black;
-        padding: 5px;
+        padding: 3px;
         border-radius: 5px;
         background-color: #00BFFf;
         font-size: 14px;
@@ -371,10 +382,12 @@ li {
         font-family: 'Yatra One', cursive, Arial, sans-serif;
         border: 2px solid;
         border-radius: 5px;
-        padding: 5px;
+        padding: 10px;
         transform: translatex(1px);
         box-sizing: border-box;
         transform: translateY(1px);
+        
+       
         
         
         
@@ -384,6 +397,20 @@ li {
 
         background-color: #30be30;
         
+     }
+     .paragrafo{
+         overflow: auto;
+         height: 350px;
+         padding-top: 10px;
+         transform: translateY(15px);
+         border: 1px solid black;
+         border-radius: 9px;
+         
+         
+
+         
+
+
      }
 
 
