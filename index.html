@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="cabeçalho">
+    <header class="cabeçalho">
 
         <div class="social">
             <a href="https://github.com/erick-sarges">
@@ -27,7 +27,7 @@
 
         </div>
 
-    </div>
+    </header>
     <br><br>
     <div class="cabeca" align="center">
         Este artigo é sobre Rick Sanchez (C-137). Você pode estar procurando <a class="link"
@@ -42,7 +42,34 @@
 
     <div class="mae">
 
-            <ul>
+
+                <form method="post" id="informação" action="">
+
+                 <span class="info">Email</span> <input type="text" name="email" id="email"><br>
+
+                 <span class="info">Nome</span>  <input type="text" name="nome" id="nome"><br>
+
+                <span class="info">Senha</span> <input type="password" name="senha" id="senha"><br>
+
+                  <img id="imagen" src="./assets/icons8-usuário-de-gênero-neutro-16.png">
+                  <span id="entrar"> Entrar</span>
+
+                  <a href="#inscrever" id="liki">
+                   <span id="criarconta">Criar Conta</span>
+                  </a>
+
+
+                </form>
+        
+
+        <form class="pesquisa" method="GET" action="https://www.youtube.com/results">
+            <input id="ft" type="text" name="search_query">
+            <input id="fp" type="submit">
+            
+        </form>
+
+
+             <ul>
                 
                     <b style="font-family: 'Yatra One', cursive, Arial, sans-serif ; color: lime;">Membros da Família</b>
                 
@@ -199,7 +226,18 @@
 
         </div>
         
-        <br><br></br><br><br>
+        <br>
+            <form action="get" id="inscrever">
+
+                <input type="text" name="email" id="email"><br>
+                <input type="text" name="nome" id="nome"><br>
+                <input type="password" name="senha" id="senha"><br>
+                <input type="checkbox" name="sexo">Maculino
+                <input type="checkbox" name="sexo">Feminino
+
+
+
+            </form>
 
     </div>
 
