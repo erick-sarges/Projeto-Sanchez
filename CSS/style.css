@@ -49,14 +49,14 @@ body {
 
     background-color: #49a4ff;
     font-size: 18px;
-    font-weight: 900;
+    font-weight: bold;
     height: 90px;
     margin: auto;
     border-radius: 10px;
-    box-sizing: border-box;
     padding: 5px;
     margin-top: 20px;
     width: fit-content;
+    
     
 }
 
@@ -156,6 +156,7 @@ body {
     border-radius: 11px;
     border: solid 1px black;
     padding: 1px;
+    
 
 }
 
@@ -174,6 +175,7 @@ body {
     width: 1000px;
     margin: auto;
     border-radius: 20px;
+    position: relative;
     
     
     
@@ -418,6 +420,110 @@ li {
         
         
 }
+ .pesquisa{
+
+    float: right;
+    transform: translateY(-8px);
+    transform: translateX(10px);
+    
+    
+ }
+
+ #ft{
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Yatra One', cursive, Arial, sans-serif;
+     
+}
+
+#fp{
+    background-color: #00BFFf;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Yatra One', cursive, Arial, sans-serif;
+    background-image: url("../assets/icons8-pesquisar-15.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
 
 
+}
+#fp:active{
+    background-color: lime;
+}
+
+#informação{
+position: absolute;
+transform: translatex(360px);
+top: 70px;
+font-family: 'Yatra One', cursive, Arial, sans-serif;
+text-align: right;
+
+
+
+
+}
+
+#email, #senha, #nome{
+
+    border-radius: 10px;
+    font-family:  'Yatra One', cursive, Arial, sans-serif;
+    font-weight: bold;
+    
+    
+}
+
+#entrar{
+
+    font-family:'Yatra One', cursive, Arial, sans-serif ;
+    font-size: 15px;
+    color: lime;
+    position: relative;
+    right: 15px;
+    
+
+}
+#entrar:hover{
+
+    text-decoration: underline;
+    
+}
+
+#criarconta{
+    font-family: 'Yatra One', cursive, Arial, sans-serif;
+    font-size: 15px;
+    color: lime;
+    position: relative;
+    right: 10px;
+    text-decoration: none;
+
+
+}
+#criarconta:hover{
+
+    background-color: lime;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+#imagen{
+
+    position: relative;
+    top: 4px;
+    width: 18px;
+    right: 10px;
+}
+ .info{
+
+    text-align: left;
+    font-size: 15px;
+ }
+
+ #liki{
+
+    text-decoration: none;
+ }
 
