@@ -1,0 +1,49 @@
+body{
+
+    background-image: url("../imagen_fundo/rickk.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+
+    text-decoration: none;
+    color: lime;
+}
+
+#nome, #senha, #email{
+
+    border-radius: 10px;
+    font-family: 'Yatra One', cursive, Arial, sans-serif;
+    font-weight: bold;
+    width: 300px;
+
+}
+#inscrever{
+
+    text-align: center;
+    margin: auto;
+    
+    
+    
+}
+.nomes{
+
+    font-family: 'Yatra One', cursive, Arial, sans-serif; 
+    font-weight: bold;
+}
+#enviar{
+    border-radius: 8px;
+}
+#enviar:hover{
+    background-color: lime;
+    font-weight: bold;
+}
+#resetar{
+    border-radius: 8px;
+}
+#resetar:hover{
+    background-color: lime;
+    font-weight: bold;
+}
