@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,52 +10,76 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <br><br><br>
 
     <form method="GET" action="" id="inscrever">
 
-           <span class="nomes">nome:</span><br>
+        <span class="nomes">nome:</span><br>
         <input type="text" name="nome" id="nome"><br>
 
-           <span class="nomes"> email:</span><br>
+        <span class="nomes"> email:</span><br>
         <input type="text" name="email" id="email"><br>
 
-           <span class="nomes">senha:</span><br>
+        <span class="nomes">senha:</span><br>
         <input type="password" name="senha" id="senha"><br>
 
-         <span class="nomes">confirmar senha:</span><br>
+        <span class="nomes">confirmar senha:</span><br>
         <input type="password" name="senha" id="senha"><br>
 
-            <span class="nomes">genero</span><br>
+        <span class="nomes">Genero</span><br>
         <input type="radio" name="genero" value="M" checked>Maculino
         <input type="radio" name="genero" value="F">Feminino
         <input type="radio" name="genero" value="O">Outros<br>
 
-            <span class="nomes"> estado civil</span><br>
+        <span class="nomes"> Estado civil</span><br>
         <input type="radio" name="estadocivil" value="S" checked> Solteiro (a)
 
         <input type="radio" name="estadocivil" value="C"> Casado (a)<br>
 
-           <span class="nomes">Interesses</span> <br>
+        <span class="nomes">Interesses</span> <br>
         <input type="checkbox" name="interesses" value="M">Mulheres
+
         <input type="checkbox" name="interesses" value="H">Homens
+
         <input type="checkbox" name="interesses" value="A">Aliens
-        <input type="checkbox" name="interesses" value="O">Outros
+
+        <input type="checkbox" name="interesses" value="O">Outros<br>
+            </form>
+
+            <form method="GET" action="" id="inscrever">
+         
+                <span class="nomes">Cidade</span><br>           
+            <select name="estado" id="selecao">
+
+                <option value="Rj">Rio de Janeiro</option>
+                <option value="Sp">São Paulo</option>
+                <option value="Pa">Pará</option>
+                <option value="BH">Belo Horizonte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <input type="submit" value="enviar" id="enviar"><br>
+
+            </select>
+            <br>
+                    <span class="nomes">Sobre Você:</span><br>
+                <textarea name="mensagem" id="msg"></textarea>
+
+            
 
         <br><br>
         <input type="reset" id="resetar" value="Limpar">
-        <input type="submit"  value="Concluir" id="enviar">
+        <input type="submit" value="Concluir" id="enviar">
 
-    
-    </form>
+            </form>
+  
 
     <br><br><br><br><br><br><br><br><br><br><br><br>
-    
+
     <a href="index.html"> Projeto Sanchez</a>
 
 
-    
+
 </body>
 
 </html>
