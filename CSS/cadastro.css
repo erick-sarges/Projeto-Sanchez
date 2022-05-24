@@ -47,3 +47,15 @@ a{
     background-color: lime;
     font-weight: bold;
 }
+#selecao{
+
+    border-radius: 8px;
+}
+#msg{
+
+    border-radius: 10px;
+    background-color: aqua;
+    font-family:'Yatra One', cursive, Arial, sans-serif; 
+    padding: 5px;
+    
+}
