@@ -329,7 +329,11 @@ li {
         
         
         text-align: center;
-        transform: translateX(-40px);
+        transform: translate(-50px, -20px);
+        font-size: 14px;
+        text-align: left;
+        
+        
         
 
         }
