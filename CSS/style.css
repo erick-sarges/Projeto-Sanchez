@@ -329,6 +329,7 @@ li {
         
         
         text-align: center;
+        transform: translateX(-40px);
         
 
         }
@@ -399,9 +400,9 @@ li {
         
     
     }
-     .social{
+     .social:hover{
 
-        background-color: #30be30;
+        background-color: lime;
         
      }
      .paragrafo{
