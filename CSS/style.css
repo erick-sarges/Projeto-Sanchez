@@ -278,6 +278,7 @@ li {
     height: fit-content;
     margin-left: 50px;
     margin-right: 50px;
+    
 
     
     }
@@ -425,7 +426,6 @@ li {
          }
         
          #ft{
-            border-radius: 10px;
             font-weight: bold;
             font-family: 'Yatra One', cursive, Arial, sans-serif;
             width: 100px;
@@ -436,8 +436,6 @@ li {
         
         #fp{
             background-color: #00BFFf;
-            font-weight: bold;
-            border-radius: 10px;
             font-family: 'Yatra One', cursive, Arial, sans-serif; 
             width: 50px;
             height: 20px;
@@ -459,7 +457,6 @@ li {
 
     #email, #senha, #nome {
 
-            border-radius: 10px;
             font-family:  'Yatra One', cursive, Arial, sans-serif;
             font-size: 11px;
             width: 100px;
@@ -472,28 +469,24 @@ li {
 
         .info{
 
-            
             float: left;
-            font-size: 10px;
-            
+             
+
             
         }
 
         #imagen{
 
-            position: relative;
             width: 15px;
             left: -70px;
+            transform: translateY(-5px);
             
              
             
         }
         #entrar{
 
-            font-family:'Yatra One', cursive, Arial, sans-serif ;
-            font-size: 10px;
-            color: lime;
-            position: relative;
+            font-family:'Yatra One', cursive, Arial, sans-serif;
             left: -22px;
             bottom: 25px;
             
@@ -502,11 +495,10 @@ li {
 
         #criarconta{
             font-family: 'Yatra One', cursive, Arial, sans-serif;
-            color: lime;
-            position: relative;
             left: 50px;
             bottom: 45px;
-            text-decoration: none;
+            
+            
             
         
         
@@ -571,7 +563,7 @@ text-align: right;
 #entrar{
 
     font-family:'Yatra One', cursive, Arial, sans-serif ;
-    font-size: 15px;
+    font-size: 13px;
     color: lime;
     position: relative;
     right: 20px;
@@ -586,7 +578,7 @@ text-align: right;
 
 #criarconta{
     font-family: 'Yatra One', cursive, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     color: lime;
     position: relative;
     right: 10px;
@@ -614,7 +606,7 @@ text-align: right;
  .info{
 
     text-align: left;
-    font-size: 15px;
+    font-size: 13px;
  }
 
  #liki{
