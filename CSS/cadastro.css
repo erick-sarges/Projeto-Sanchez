@@ -57,5 +57,6 @@ a{
     background-color: aqua;
     font-family:'Yatra One', cursive, Arial, sans-serif; 
     padding: 5px;
+    resize: none;
     
 }
