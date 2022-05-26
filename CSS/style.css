@@ -273,7 +273,7 @@ li {
 @media screen and (max-width: 800px) {
 
     .cabeca{
-    background-color: #49a4ff;
+    background-color: #49a4ffcc;
     overflow: auto;
     width: fit-content;
     height: fit-content;
@@ -299,7 +299,7 @@ li {
 
 
     .rick1 {
-    background-color: #49a4ff;
+    background-color: #49a4ffbb;
     width: 70%;
     margin: auto;
     padding-bottom: 5px;
@@ -609,4 +609,6 @@ text-align: right;
 
     text-decoration: none;
  }
+
+
 
