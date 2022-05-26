@@ -47,7 +47,7 @@ body {
 }
 .cabeca{
 
-    background-color: #49a4ff;
+    background-color: #49a4ffdd;
     font-size: 18px;
     font-weight: bold;
     height: 90px;
@@ -125,7 +125,7 @@ body {
 
 
 .rick1 {
-    background-color: #49a4ff;
+    background-color: #49a4ffbb;
     width: 600px;
     margin: auto;
     padding-bottom: 5px;
@@ -146,7 +146,8 @@ body {
 
 .rick1:active {
 
-    background-color: lime;}
+    background-color: lime;
+}
 
 #informaçãobio{
     height: 20px;
@@ -550,6 +551,7 @@ text-align: right;
     font-family:  'Yatra One', cursive, Arial, sans-serif;
     font-weight: bold;
     margin-bottom: 2px;
+    border: none;
     
     
 }
