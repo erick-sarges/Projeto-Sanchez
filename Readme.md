@@ -5,7 +5,7 @@
 <b> Nesse projeto falo um pouco sobre o personagem de um dos meus desenhos favoritos, <i>Rick Sanchez</i> da série animada Rick and Morty.</b>
 
 <h2 align="center">
-  Acesse a Interface do YouTube Clicando <a href="https://erick-sarges.github.io/Projeto-Sanchez/">AQUI</a>!
+  Acesse o projeto clicando <a href="https://erick-sarges.github.io/Projeto-Sanchez/">AQUI</a>!
 </h2>
 
 ![](./imagens-projeto/projeto.sanchez1.png)
